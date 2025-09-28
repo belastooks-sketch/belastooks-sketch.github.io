@@ -1,1 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
 
+header, nav, footer {
+  background: #003366;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  list-style: none;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+.portrait img {
+  max-width: 150px;  /* don’t let it get too big */
+  width: 100%;       /* shrink on small screens */
+  height: auto;      /* keep aspect ratio */
+  border-radius: 50%;
+}
+.UTwo img {
+  max-width: 150px;  /* don’t let it get too big */
+  width: 100%;       /* shrink on small screens */
+  height: auto;      /* keep aspect ratio */
+  border-radius: 50%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
