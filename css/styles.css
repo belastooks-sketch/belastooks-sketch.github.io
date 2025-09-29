@@ -10,6 +10,19 @@ header, nav, footer {
   color: #ffffff;
   padding: 1rem;
 }
+header {
+  text-align: center;       /* centers inline content like h1, p, nav links */
+  padding: 20px;
+}
+
+header .portrait img {
+  display: block;
+  margin: 0 auto;           /* horizontally centers the image */
+  max-width: 180px;         /* optional: limit size */
+  width: 100%
+  height: auto;
+  border-radius: 50%;       /* optional: makes it circular */
+}
 
 nav ul {
   display: flex;
@@ -90,12 +103,7 @@ img {
   height: auto;
   border-radius: 6px;
 }
-.portrait img {
-  max-width: 150px;  /* don’t let it get too big */
-  width: 100%;       /* shrink on small screens */
-  height: auto;      /* keep aspect ratio */
-  border-radius: 50%;
-}
+
 .UTwo img {
   max-width: 150px;  /* don’t let it get too big */
   width: 100%;       /* shrink on small screens */
