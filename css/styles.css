@@ -29,7 +29,7 @@ a[href^="mailto:"]{
 }
 
 a {
-  color: magenta;
+  color: #006400;
   text-decoration: underline;
 }
 
