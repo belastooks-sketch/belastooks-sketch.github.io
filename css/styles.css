@@ -50,22 +50,23 @@ nav li {
   position: relative;
 }
 
-/* Hide dropdown by default */
+/* Dropdown menu background */
 .dropdown-menu {
   display: none;
   position: absolute;
-  top: 100%; /* directly under the parent link */
+  top: 100%;
   left: 0;
-  background: white;
+  background: #f9f9f9; /* light gray instead of white */
   border: 1px solid #ddd;
   list-style: none;
   min-width: 160px;
   padding: 0;
   margin: 0;
   z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15); /* subtle shadow to separate from page */
 }
 
-/* Style the dropdown items */
+/* Dropdown menu items */
 .dropdown-menu li {
   width: 100%;
 }
@@ -75,10 +76,12 @@ nav li {
   padding: 10px 15px;
   text-decoration: none;
   color: black;
+  background: #f9f9f9;  /* matches dropdown background */
 }
 
+/* Hover effect */
 .dropdown-menu a:hover {
-  background: #f0f0f0;
+  background: #e6e6e6;  /* darker gray on hover */
 }
 
 /* Show dropdown on hover (desktop) */
