@@ -20,7 +20,7 @@ nav ul {
 }
 
 a {
-  color: #FF4500;
+  color: #FD0166;
   text-decoration: none;
 }
 nav a:link {
@@ -28,9 +28,6 @@ nav a:link {
   text-decoration: none;
 }
 
-nav a:visited {
-  color: gray;
-}
 
 img {
   max-width: 100%;
