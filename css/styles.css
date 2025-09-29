@@ -28,17 +28,12 @@ a[href^="mailto:"]{
   text-decoration: none;
 }
 
-nav a:link,
-nav a:visited,
-nav a:hover,
-nav a:active {
-  color: white;
-  text-decoration: none;
-}
-
 a {
   color: #006400;
   text-decoration: underline;
+}
+nav ul li a {
+  color: white;
 }
 
 /* Make sure top-level nav is horizontal */
