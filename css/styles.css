@@ -19,8 +19,8 @@ nav ul {
   padding: 0;
 }
 
-a {
-  color: #FD0166;
+a[href^="mailto:"]{
+  color: white;
   text-decoration: none;
 }
 nav a:link {
