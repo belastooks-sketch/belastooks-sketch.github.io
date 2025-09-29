@@ -27,14 +27,15 @@ a[href^="mailto:"]{
   color: white;
   text-decoration: none;
 }
-nav a:link {
-  color: white;
-  text-decoration: none;
-}
 
 a {
   color: magenta;
   text-decoration: underline;
+}
+
+nav a:link {
+  color: white;
+  text-decoration: none;
 }
 
 
